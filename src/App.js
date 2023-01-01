@@ -1,8 +1,9 @@
 import { Link, Route, Routes } from 'react-router-dom';
 import './App.css';
+import Footer from './Components/Home/Footer/Footer';
 import { Home } from './Components/Home/Home';
-import About from './Components/Home/pages/About/About';
-import { Service } from './Components/Home/pages/Service/Service';
+import About from './Components/pages/About/About';
+import Service from './Components/pages/Service/Service';
 
 function App() {
   return (
@@ -12,8 +13,8 @@ function App() {
           <li>
             <Link to='/'> Home</Link>
           </li>
-          <li><Link to='about'> page</Link></li>
-          <li><Link to='service'> page</Link></li>
+          <li><Link to='about'> about</Link></li>
+          <li><Link to='service'> Service</Link></li>
           
         </ul>
         
@@ -21,14 +22,15 @@ function App() {
 
       <Routes>
         <Route path='/' element={ <Home/>} />
-        <Route path='about' element={ <About/>} />
+        <Route path='about' element={ <About/> } />
         <Route path='service' element={ <Service/>} />
 
        
 
       </Routes>
      
-
+      <Footer />
+      
     
     </div>
   );
