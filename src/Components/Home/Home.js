@@ -1,10 +1,14 @@
 import React from 'react'
+import { Navbar } from './Header/Navbar'
+import TopNavber from './Header/TopNavber'
 
 
 export const Home = () => {
   return (
-      <div>
-      <h2>hello fiver</h2>
+    <div>
+      <TopNavber/>
+      <Navbar />
+       
        
     </div>
   )

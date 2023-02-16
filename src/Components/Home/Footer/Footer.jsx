@@ -19,7 +19,7 @@ const Footer = () => {
             ROBE SOURCING LTD
           </h5>
 
-          <div className="text-start mt-3 ml-3 font-serif">
+          <div className="text-start mt-3 ml-10 md:ml-3 font-serif">
             <div className="">
               <div className="text-md mb-1">Office Address:</div>
               <div className="text-xs mb-1">
