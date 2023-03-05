@@ -4,7 +4,9 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
 // import logo from "./../../Images/logo-removebg-preview.png";
 import logo from "./../../Image/logo-removebg-preview.png";
+//css
 
+import "./../Footer/footer.css";
 export const Navbar = () => {
   const navigation = [
     { name: "Home", href: "/", current: false },
@@ -19,7 +21,7 @@ export const Navbar = () => {
   }
 
   return (
-    <Disclosure as="nav" className="bg-gray-800">
+    <Disclosure as="nav" className="bg_back ">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-2 sm:px-6 md:px-4 lg:px-8">

@@ -9,7 +9,7 @@ import logof from "./../../Image/logo-removebg-preview.png";
 import "./footer.css";
 const Footer = () => {
   return (
-    <div className="bg-class bg-gray-700  text-white pb-1  pt-12 ">
+    <div className="bg_back w-full bg-gray-700  text-white pb-1  pt-12 ">
       <div className="grid xs:grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3   gap-2 justify-between justify-items-center   ">
         <div className="">
           <div className=" ml-20">
