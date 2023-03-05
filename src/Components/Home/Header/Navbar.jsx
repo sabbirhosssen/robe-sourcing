@@ -50,9 +50,9 @@ export const Navbar = () => {
                     alt="Your Company"
                   />
 
-                  <h6 className="inline-block  text-[16px] sm:text-[20px] md:text-[20px] lg:text-[24px] font-serif  text-white">
-                    ROBE SOURCING LTD.
-                  </h6>
+                  <h1 className="inline-block  text-[16px] sm:text-[20px] md:text-[20px] lg:text-[24px] font-serif  text-white">
+                    ROBE SOURCING INTERNATIONAL LTD
+                  </h1>
                 </div>
                 <div className="hidden sm:ml-6 md:ml-1 lg:ml-6  md:block">
                   <div className="flex  space-x-4 sm:space-x-0 md:space-x-0 lg:space-x-3 xl:space-x-5 2xl:space-x-5  justify-center justify-items-center">

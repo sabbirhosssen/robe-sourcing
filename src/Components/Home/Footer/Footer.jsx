@@ -15,9 +15,9 @@ const Footer = () => {
           <div className=" ml-20">
             <img className="w-20 h-auto" src={logof} alt="" />
           </div>
-          <h5 className="  text-[25px] text-center font-serif">
+          <h2 className="  text-[25px] text-center font-serif">
             ROBE SOURCING LTD
-          </h5>
+          </h2>
 
           <div className="text-start mt-3 ml-10 md:ml-3 font-serif">
             <div className="">
@@ -32,7 +32,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="text-start xs:ml-72  mt-7 font-serif ">
-          <h4 className="mb-4 ">Useful Links</h4>
+          <h3 className="mb-4 ">Useful Links</h3>
           <ul className="text-xs">
             <li className="inline">Home</li>
             <li className="block">About Us</li>

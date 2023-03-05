@@ -1,5 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
+import { Helmet } from "react-helmet-async";
 
 const Projects = () => {
   const [datas, setData] = useState([]);
@@ -21,10 +22,15 @@ const Projects = () => {
     </div>
   ));
   return (
-    <div>
+    <>
+      <Helmet>
+        <title>About</title>
+        <meta name="description" content="Shop our latest products now" />
+        <link rel="canonical" href="/projects" />
+      </Helmet>
       {content}
-      <h1 className="text-green-400"> projects</h1>
-    </div>
+      <h4 className="text-green-400"> projects</h4>
+    </>
   );
 };
 
